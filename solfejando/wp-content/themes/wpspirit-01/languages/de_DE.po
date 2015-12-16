@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: joomspirit/content-link.php:20
+#: joomspirit/content-status.php:33
+#: joomspirit/content-aside.php:22
+#: joomspirit/content-quote.php:19
+#: joomspirit/content-image.php:22
+msgid "% Replies"
+msgstr "% Antworten"
+
+#. Text in function
+#: joomspirit/functions.php:850
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#. Text in function
+#: joomspirit/comments.php:41
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#. Text in function
+#: joomspirit/image.php:37
+msgid "&larr; Previous"
+msgstr "← Zurück"
+
+#. Text in function
+#: joomspirit/functions.php:840
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid ", "
+msgstr ", "
+
+#. Text in function
+#: joomspirit/content.php:83
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#. Text in function
+#: joomspirit/content-link.php:20
+#: joomspirit/content-status.php:33
+#: joomspirit/content-aside.php:22
+#: joomspirit/content-quote.php:19
+#: joomspirit/content-image.php:22
+msgid "1 Reply"
+msgstr "1 Antwort"
+
+#. Text in function
+#: joomspirit/content.php:83
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#. Text in function
+#: joomspirit/functions.php:813
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<Span class = \ "Meta-nav \"> & Larr; </ span> Ältere Beiträge"
+
+#. Text in function
+#: joomspirit/image.php:20
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<Span class = \ "Meta-Meta-prep prep-entry-Datum \"> Veröffentlicht </ span> <span class = \ "Entry-Datum \"> <time class = \ "Entry-Datum \" Datetime = \ " %1$s \ "> %2$s </ time> </ span> <a href = \ " %3$s \ "title = \" Link to full-size image \ "> %4$s & Zeiten; %5$s </a> in <a href = \ " %6$s \ "title = \" Return to %7$s \ "rel = \" Galerie \ "> %8$s </ a >."
+
+#. Text in function
+#: joomspirit/content.php:97
+#: joomspirit/author.php:60
+msgid "About %s"
+msgstr "Über %s"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:71
+msgid "Add your email in the Theme options --> section \"Contact page\""
+msgstr "Fügen Sie Ihre E-Mail in den Theme-Optionen -> Abschnitt \ "Kontakt-Seite \""
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:41
+msgid "All Blog Posts"
+msgstr "Alle Blog-Beiträge"
+
+#. Text in echo
+#: joomspirit/index.php:61
+#: joomspirit/content-none.php:16
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Entschuldige bitte, aber wir können so nichts anzeigen. Vielleicht hilft eine Suche weiter."
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Archive for "
+msgstr "Archiv für "
+
+#. Text in echo
+#: joomspirit/archive.php:15
+msgid "Archives"
+msgstr "Archive"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Author Archive "
+msgstr "Redakteurarchiv "
+
+#. Text in function
+#: joomspirit/author.php:29
+msgid "Author Archives: %s"
+msgstr "Autoren Archiv: %s"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Blog Archives "
+msgstr "Blogarchiv "
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:39
+msgid "Categories"
+msgstr "Kategorien"
+
+#. Text in function
+#: joomspirit/category.php:19
+msgid "Category Archives: %s"
+msgstr "Kategorien Archiv: %s"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:37
+msgid "Comment Feed"
+msgstr "Kommentar-Feed"
+
+#. Text in echo
+#: joomspirit/comments.php:40
+msgid "Comment navigation"
+msgstr "Kommentar Navigation"
+
+#. Text in function
+#: joomspirit/comments.php:29
+msgid "Comments"
+msgstr "Kommentare"
+
+#. Text in echo
+#: joomspirit/comments.php:51
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#. Text in function
+#: joomspirit/content-link.php:13
+#: joomspirit/content.php:72
+#: joomspirit/content-status.php:27
+#: joomspirit/content-aside.php:14
+#: joomspirit/content-quote.php:12
+#: joomspirit/content-image.php:12
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lesen Sie weiter <span class = \ "Meta-nav \"> & rarr; </ span>"
+
+#. Text in function
+#: joomspirit/archive.php:15
+msgid "Daily Archives: %s"
+msgstr "Tagesarchiv: %s"
+
+#. Text in function
+#: joomspirit/content-link.php:23
+#: joomspirit/content.php:22
+#: joomspirit/functions.php:872
+#: joomspirit/image.php:33
+#: joomspirit/content-status.php:36
+#: joomspirit/content-aside.php:25
+#: joomspirit/content-quote.php:22
+#: joomspirit/content-page.php:14
+#: joomspirit/content-image.php:25
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:44
+#: joomspirit/inc/mail/contact.php:2
+msgid "Email"
+msgstr "E-Mail "
+
+#. Text in echo
+#: joomspirit/404.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Die Seite wurde nicht gefunden. Benutze die Suchfunktion!"
+
+#. Text in function
+#: joomspirit/content-link.php:20
+#: joomspirit/content-status.php:33
+#: joomspirit/content-aside.php:22
+#: joomspirit/content-quote.php:19
+#: joomspirit/content-image.php:22
+msgid "Leave a reply"
+msgstr "Hinterlassen Sie eine Nacricht."
+
+#. Text in echo
+#: joomspirit/content-link.php:11
+msgid "Link"
+msgstr "LINK"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:36
+msgid "Main RSS"
+msgstr "Haupt RSS"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:39
+#: joomspirit/inc/mail/contact.php:1
+msgid "Name"
+msgstr "Nam"
+
+#. Text in function
+#: joomspirit/comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#. Text in function
+#: joomspirit/functions.php:814
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class = \ "Meta-nav \"> & rarr; </ span>"
+
+#. Text in function
+#: joomspirit/image.php:38
+msgid "Next &rarr;"
+msgstr "Weiter →"
+
+#. Text in echo
+#: joomspirit/index.php:46
+msgid "No posts to display"
+msgstr "Keine Beiträge vorhanden"
+
+#. Text in echo
+#: joomspirit/index.php:57
+#: joomspirit/search.php:43
+#: joomspirit/content-none.php:12
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Page %s"
+msgstr "Seite %s"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:32
+msgid "Pages"
+msgstr "Seiten"
+
+#. Text in function
+#: joomspirit/content.php:73
+#: joomspirit/image.php:97
+#: joomspirit/content-page.php:27
+msgid "Pages:"
+msgstr "Seiten:"
+
+#. Text in function
+#: joomspirit/content-link.php:17
+#: joomspirit/content-status.php:14
+#: joomspirit/content-aside.php:19
+#: joomspirit/content-quote.php:16
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#. Text in echo
+#: joomspirit/functions.php:840
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#. Text in function
+#: joomspirit/functions.php:1032
+msgid "Please, fill in all the required fields"
+msgstr "Bitte füllen Sie alle erforderlichen Felder aus"
+
+#. Text in function
+#: joomspirit/functions.php:850
+msgid "Post author"
+msgstr "Post Autor"
+
+#. Text in echo
+#: joomspirit/functions.php:812
+#: joomspirit/single.php:17
+msgid "Post navigation"
+msgstr "Artikelnavigation"
+
+#. Text in echo
+#: joomspirit/content.php:83
+msgid "Posted by "
+msgstr "Erstellt von: "
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:34
+msgid "RSS Feeds"
+msgstr "RSS-Feeds"
+
+#. Text in function
+#: joomspirit/index.php:50
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Bereit, den ersten Beitrag zu veröffentlichen? <A href = \ " %s \ "> Werde hier </a> gestartet."
+
+#. Text in function
+#: joomspirit/functions.php:876
+msgid "Reply"
+msgstr "Antworten"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Search Results "
+msgstr "Suchergebnisse "
+
+#. Text in function
+#: joomspirit/search.php:15
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für %s"
+
+#. Text in function
+#: joomspirit/functions.php:1036
+msgid "Sorry an error occured while sending mail"
+msgstr "Es tut uns leid beim Versenden ein Fehler aufgetreten"
+
+#. Text in echo
+#: joomspirit/search.php:47
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Es tut uns leid, aber es konnte nichts gefunden werden. Bitte versuchen Sie es erneut mit anderen Suchbegriffen."
+
+#. Text in echo
+#: joomspirit/404.php:23
+msgid "Sorry, this page doesn&rsquo;t exist"
+msgstr "Sorry, diese Seite doesn & rsquo; t existieren"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:49
+#: joomspirit/inc/mail/contact.php:3
+msgid "Subject"
+msgstr "Betreff"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:61
+msgid "Submit"
+msgstr "Senden"
+
+#. Text in function
+#: joomspirit/tag.php:19
+msgid "Tag Archives: %s"
+msgstr "Tag Archiv: %s"
+
+#. Text in function
+#: joomspirit/functions.php:1040
+msgid "Thank you for your email"
+msgstr "Vielen Dank für Ihre E-Mail"
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dieser Eintrag wurde veröffentlicht in %1$s und verschlagwortet mit %2$s in %3$s <span class=\"by-author\"> von %4$s </ span>."
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dieser Eintrag wurde veröffentlicht am %1$s in %3$s <span class=\"by-author\"> von %4$s </ span>."
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dieser Eintrag wurde am %3$s <span class = \ "-Autor von \"> von %4$s </ span>."
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "View all posts by %s"
+msgstr "Alle Beiträge von %s"
+
+#. Text in function
+#: joomspirit/content.php:101
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Alle Beiträge von %s <span class = \ "Meta-nav \"> & rarr; </ span>"
+
+#. Text in echo
+#: joomspirit/functions.php:867
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Beitrag wartet auf die Redaktion."
+
+#. Text in function
+#: joomspirit/template-page-contact.php:54
+msgid "Your message"
+msgstr "Ihre Nachricht"
+
+#. Text in function
+#: joomspirit/content.php:83
+msgid "comments"
+msgstr "Kommentare"
+
+#. Text in echo
+#: joomspirit/404.php:24
+msgid "error 404"
+msgstr "Fehler 404"
+
+#. Text in echo
+#: joomspirit/content.php:83
+msgid "in "
+msgstr "Eini "
+
+#. Text in function
+#: joomspirit/template-page-contact.php:39
+#: joomspirit/template-page-contact.php:44
+#: joomspirit/template-page-contact.php:49
+#: joomspirit/template-page-contact.php:54
+msgid "required"
+msgstr "betragen"
+

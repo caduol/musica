@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: joomspirit/content-link.php:20
+#: joomspirit/content-status.php:33
+#: joomspirit/content-aside.php:22
+#: joomspirit/content-quote.php:19
+#: joomspirit/content-image.php:22
+msgid "% Replies"
+msgstr "返信数: %s件"
+
+#. Text in function
+#: joomspirit/functions.php:850
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#. Text in function
+#: joomspirit/comments.php:41
+msgid "&larr; Older Comments"
+msgstr "←古いコメント"
+
+#. Text in function
+#: joomspirit/image.php:37
+msgid "&larr; Previous"
+msgstr "＆larr;前の"
+
+#. Text in function
+#: joomspirit/functions.php:840
+msgid "(Edit)"
+msgstr "（編集）"
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid ", "
+msgstr "、"
+
+#. Text in function
+#: joomspirit/content.php:83
+msgid "0 comments"
+msgstr "0コメント"
+
+#. Text in function
+#: joomspirit/content-link.php:20
+#: joomspirit/content-status.php:33
+#: joomspirit/content-aside.php:22
+#: joomspirit/content-quote.php:19
+#: joomspirit/content-image.php:22
+msgid "1 Reply"
+msgstr "返信数: 1件"
+
+#. Text in function
+#: joomspirit/content.php:83
+msgid "1 comment"
+msgstr "1 つのコメント"
+
+#. Text in function
+#: joomspirit/functions.php:813
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">←</span>古い投稿"
+
+#. Text in function
+#: joomspirit/image.php:20
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<スパンクラス= \ "メタプレップメタ取エントリー日付\">公開</スパン> <スパンクラス= \ "エントリーの日付\"> <時間クラス= \ "エントリーの日付\"日時= \ " %1$s \ "> %2$s </時間> <のhref = \ "での</ span>の%3$s \ "タイトル= \"フルサイズのイメージ\へのリンク"> %4$s ＆回; %5$s中</a>の<のhref = \ " %6$s \ "タイトル= \"に戻る%7$s \ "のrel = \"ギャラリー\ "> %8$s </ A >。"
+
+#. Text in function
+#: joomspirit/content.php:97
+#: joomspirit/author.php:60
+msgid "About %s"
+msgstr "について%s"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:71
+msgid "Add your email in the Theme options --> section \"Contact page\""
+msgstr "テーマのオプションであなたの電子メールを追加します - >セクション\ "お問い合わせページ\""
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:41
+msgid "All Blog Posts"
+msgstr "すべてのブログ記事"
+
+#. Text in echo
+#: joomspirit/index.php:61
+#: joomspirit/content-none.php:16
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "結果が見つかりませんでした。検索すれば関連投稿を見つけましょう。"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Archive for "
+msgstr "のためのアーカイブ"
+
+#. Text in echo
+#: joomspirit/archive.php:15
+msgid "Archives"
+msgstr "アーカイブ"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Author Archive "
+msgstr "著者アーカイブ"
+
+#. Text in function
+#: joomspirit/author.php:29
+msgid "Author Archives: %s"
+msgstr "作成者アーカイブ： %s"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Blog Archives "
+msgstr "アーカイブ"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:39
+msgid "Categories"
+msgstr "カテゴリー"
+
+#. Text in function
+#: joomspirit/category.php:19
+msgid "Category Archives: %s"
+msgstr "カテゴリーアーカイブ： %s"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:37
+msgid "Comment Feed"
+msgstr "コメントフィード"
+
+#. Text in echo
+#: joomspirit/comments.php:40
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#. Text in function
+#: joomspirit/comments.php:29
+msgid "Comments"
+msgstr "解説"
+
+#. Text in echo
+#: joomspirit/comments.php:51
+msgid "Comments are closed."
+msgstr "このページへのコメント募集は終了しました。"
+
+#. Text in function
+#: joomspirit/content-link.php:13
+#: joomspirit/content.php:72
+#: joomspirit/content-status.php:27
+#: joomspirit/content-aside.php:14
+#: joomspirit/content-quote.php:12
+#: joomspirit/content-image.php:12
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">→</span>"
+
+#. Text in function
+#: joomspirit/archive.php:15
+msgid "Daily Archives: %s"
+msgstr "デイリーアーカイブ： %s"
+
+#. Text in function
+#: joomspirit/content-link.php:23
+#: joomspirit/content.php:22
+#: joomspirit/functions.php:872
+#: joomspirit/image.php:33
+#: joomspirit/content-status.php:36
+#: joomspirit/content-aside.php:25
+#: joomspirit/content-quote.php:22
+#: joomspirit/content-page.php:14
+#: joomspirit/content-image.php:25
+msgid "Edit"
+msgstr "編集"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:44
+#: joomspirit/inc/mail/contact.php:2
+msgid "Email"
+msgstr "Eメール"
+
+#. Text in echo
+#: joomspirit/404.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "それは私達がrsquoのを＆できるようです。再探して、tはあなた＆rsquoの見つけることができます。おそらく、検索が役立ちます。"
+
+#. Text in function
+#: joomspirit/content-link.php:20
+#: joomspirit/content-status.php:33
+#: joomspirit/content-aside.php:22
+#: joomspirit/content-quote.php:19
+#: joomspirit/content-image.php:22
+msgid "Leave a reply"
+msgstr "応答を残す"
+
+#. Text in echo
+#: joomspirit/content-link.php:11
+msgid "Link"
+msgstr "リンク"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:36
+msgid "Main RSS"
+msgstr "メインのRSS"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:39
+#: joomspirit/inc/mail/contact.php:1
+msgid "Name"
+msgstr "名前"
+
+#. Text in function
+#: joomspirit/comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント→"
+
+#. Text in function
+#: joomspirit/functions.php:814
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿<span class=\"meta-nav\">→</span>"
+
+#. Text in function
+#: joomspirit/image.php:38
+msgid "Next &rarr;"
+msgstr "次に＆RARR;"
+
+#. Text in echo
+#: joomspirit/index.php:46
+msgid "No posts to display"
+msgstr "表示するには、ポストいいえ"
+
+#. Text in echo
+#: joomspirit/index.php:57
+#: joomspirit/search.php:43
+#: joomspirit/content-none.php:12
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした。"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Page %s"
+msgstr "ページ：%s"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:32
+msgid "Pages"
+msgstr "ページ"
+
+#. Text in function
+#: joomspirit/content.php:73
+#: joomspirit/image.php:97
+#: joomspirit/content-page.php:27
+msgid "Pages:"
+msgstr "ページ："
+
+#. Text in function
+#: joomspirit/content-link.php:17
+#: joomspirit/content-status.php:14
+#: joomspirit/content-aside.php:19
+#: joomspirit/content-quote.php:16
+msgid "Permalink to %s"
+msgstr "%sへの固定リンク"
+
+#. Text in echo
+#: joomspirit/functions.php:840
+msgid "Pingback:"
+msgstr "ピンバック："
+
+#. Text in function
+#: joomspirit/functions.php:1032
+msgid "Please, fill in all the required fields"
+msgstr "、すべての項目を入力してください"
+
+#. Text in function
+#: joomspirit/functions.php:850
+msgid "Post author"
+msgstr "投稿者"
+
+#. Text in echo
+#: joomspirit/functions.php:812
+#: joomspirit/single.php:17
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#. Text in echo
+#: joomspirit/content.php:83
+msgid "Posted by "
+msgstr "		Posted by
+"
+
+#. Text in echo
+#: joomspirit/template-page-sitemap.php:34
+msgid "RSS Feeds"
+msgstr "RSSフィード"
+
+#. Text in function
+#: joomspirit/index.php:50
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "あなたの最初の投稿を公開する準備はできましたか？ <a href=\"%s\">Get started here</a>."
+
+#. Text in function
+#: joomspirit/functions.php:876
+msgid "Reply"
+msgstr "返信"
+
+#. Text in function
+#: joomspirit/functions.php:1
+msgid "Search Results "
+msgstr "検索結果"
+
+#. Text in function
+#: joomspirit/search.php:15
+msgid "Search Results for: %s"
+msgstr "検索結果：%s"
+
+#. Text in function
+#: joomspirit/functions.php:1036
+msgid "Sorry an error occured while sending mail"
+msgstr "メールの送信中に申し訳ありませんが、エラーが発生しました"
+
+#. Text in echo
+#: joomspirit/search.php:47
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "申し訳ありませんが、何も検索条件にマッチしません。いくつかの異なったキーワードで、もう一度やり直してください。"
+
+#. Text in echo
+#: joomspirit/404.php:23
+msgid "Sorry, this page doesn&rsquo;t exist"
+msgstr "申し訳ありませんが、このページはdoesnの＆rsquoの、tは存在し"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:49
+#: joomspirit/inc/mail/contact.php:3
+msgid "Subject"
+msgstr "テーマ"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:61
+msgid "Submit"
+msgstr "送信"
+
+#. Text in function
+#: joomspirit/tag.php:19
+msgid "Tag Archives: %s"
+msgstr "タグ別アーカイブ： %s"
+
+#. Text in function
+#: joomspirit/functions.php:1040
+msgid "Thank you for your email"
+msgstr "あなたのメールをいただきありがとうございました"
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "このエントリはに投稿されました%1$sし、タグ付けされた%2$s上%3$s <スパンクラス= \ "作者による\">による%4$s </ span>]をクリックします。"
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "このエントリはに投稿されました%1$s上で%3$sすることにより、<スパンクラス= \ "作者による\"> %4$s </ span>]をクリックします。"
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "このエントリは、に掲載された%3$sすることにより、<スパンクラス= \ "作者による\"> %4$s </ span>]をクリックします。"
+
+#. Text in function
+#: joomspirit/functions.php:979
+msgid "View all posts by %s"
+msgstr "%sによる投稿をすべて表示"
+
+#. Text in function
+#: joomspirit/content.php:101
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s さんの投稿をすべて表示 <span class=\"meta-nav\">&rarr;</span>"
+
+#. Text in echo
+#: joomspirit/functions.php:867
+msgid "Your comment is awaiting moderation."
+msgstr "このコメントは管理者の承認待ちです。"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:54
+msgid "Your message"
+msgstr "あなたのメッセージ"
+
+#. Text in function
+#: joomspirit/content.php:83
+msgid "comments"
+msgstr "コメント"
+
+#. Text in echo
+#: joomspirit/404.php:24
+msgid "error 404"
+msgstr "エラー404"
+
+#. Text in echo
+#: joomspirit/content.php:83
+msgid "in "
+msgstr "世界とつながってみませんか"
+
+#. Text in function
+#: joomspirit/template-page-contact.php:39
+#: joomspirit/template-page-contact.php:44
+#: joomspirit/template-page-contact.php:49
+#: joomspirit/template-page-contact.php:54
+msgid "required"
+msgstr "required"
+
