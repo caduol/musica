@@ -1,0 +1,677 @@
+/**
+**
+**				Media queries
+**
+**/
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See http://core.trac.wordpress.org/ticket/25888.
+ */
+ 
+ 
+@-ms-viewport {
+	zoom:1;
+}
+@viewport {
+	zoom:1;
+}
+
+
+/*********************************/
+
+
+body {
+-webkit-text-size-adjust: none;
+}
+
+.hidden {
+display: none;
+visibility: hidden;
+}
+
+.visible-phone {
+display: none !important;
+}
+
+.visible-tablet {
+display: none !important;
+}
+
+.hidden-desktop {
+display: none !important;
+}
+
+.visible-desktop {
+display: block !important;
+}
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media screen and (max-width: 979px) {
+
+
+	.hidden-desktop {
+	display: block !important;
+	}
+	.visible-desktop {
+	display: none !important ;
+	}
+	.visible-tablet {
+	display: block !important;
+	}
+	.hidden-tablet {
+	display: none !important;
+	}
+
+}
+
+
+/* Phone and little tablet */
+@media screen and (max-width: 767px) {
+
+
+	.hidden-desktop {
+	display: block !important;
+	}
+	.visible-desktop {
+	display: none !important;
+	}
+	.visible-tablet {
+	display: none !important;
+	}
+	.hidden-tablet {
+	display: block !important;
+	}
+	.visible-phone {
+	display: block !important;
+	}
+	.hidden-phone {
+	display: none !important;
+	}
+	
+}
+
+
+/** 			 
+**				MAIN MENU
+**		
+**/
+
+
+
+@media screen and (max-width: 979px) {
+	
+	.drop-down {
+	position: relative;
+    float: none;
+    padding:0;
+    margin: 30px auto;
+    width: auto !important;
+    height:auto;
+    z-index: 30;
+	}
+
+	.drop-down * {
+	border-radius: 0 !important;
+	}
+	
+	.drop-down ul {
+	background-color: transparent;
+    border : none;
+    display : none;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left:3%;
+    max-width: 94%;
+    padding:20px 0 100px 0;
+    z-index: 1337;
+ 	}
+ 	
+ 	#js_navigation:target > div > ul {
+    display : block;
+	}
+	
+	.drop-down span.title_menu {
+	display: block;
+	position: relative;
+	font-weight: normal;
+	}
+	
+	.drop-down span.title_menu a {	
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	background: #fff;
+	box-shadow: 0px -12px 4px rgba(0,0,0,0.07) inset, 1px 1px 3px rgba(0,0,0,0.10);
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	border-color: #ddd #ddd #bbb #ddd;
+	color: #444 ;
+	font-size: 19px;
+	line-height: 19px;
+	text-shadow:none;
+	margin:0;
+	padding: 10px 15px;
+	text-align:center;
+	min-width:120px;
+	}
+	
+	.icon-main-menu:before {
+	display: inline-block;
+	*display:inline;
+	*zoom:1;
+	font-family: FontAwesome;
+	content: "\f0c9";
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	font-size:15px;
+	color:#666;
+	margin-right:8px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	}
+	
+	.drop-down span.title_menu a:hover, .drop-down span.title_menu a:focus {
+	background: #fff;
+	box-shadow: 0px -12px 4px rgba(0,0,0,0.10) inset, 1px 1px 3px rgba(0,0,0,0.12);
+	}
+	
+	#js_navigation:target span.title_menu {
+	display: none;
+	}
+	
+	#js_navigation:target:before {
+	content: "";
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(80,80,80,.9);
+	}
+	
+    .drop-down li {
+    position: relative;
+    display : block ;
+    float: none;
+    height:auto;
+    width:auto;
+    line-height: inherit;
+    padding: 0 ;
+    margin:0 0 10px 0;
+    background: #999;
+    background-image:none;
+    }
+    
+	.drop-down li.parent > a, .drop-down li.parent > span {
+	border-bottom: 1px solid rgba(255,255,255,0.40);
+	}
+	
+	.drop-down li.parent li a {
+    border-bottom:none;
+    }
+    
+    .drop-down li li:first-child > a, .drop-down li li:first-child > span.separator {
+    border:none;
+	}
+    
+	.drop-down li ul {
+	display : block ;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	opacity:1;
+	width: auto;
+	max-width: none;
+	border-radius:0;
+	border:none;
+	box-shadow: none;
+	padding: 0;
+	margin:0;
+	}
+	
+	.drop-down li ul:hover {
+	box-shadow:none;
+	}
+	
+	.drop-down li ul ul {
+	top: 0;
+	left: 0;
+	margin:0;
+	}
+	
+	.drop-down li li {
+	float:none;
+	width:auto;
+	padding:0;
+	margin:0;
+    background: #eee;
+    background-image:none;
+	}
+	
+	.drop-down li a, .drop-down li span.separator {
+	display : block;
+	width:auto;
+	height : auto;
+	padding: 14px 15px 14px 25px;
+	margin:0;
+	border:none;
+	text-align : left;
+	text-transform: none;
+	font-weight: normal;
+	line-height:100%;
+	font-size:120%;
+	color: #eee;
+	text-shadow : none;
+	-webkit-transition : none;
+	-moz-transition : none;
+	-ms-transition : none;
+	-o-transition : none;
+	transition : none;
+	}
+	
+	.drop-down li li a, .drop-down li li span.separator {
+	display : block;
+	width:auto;
+	letter-spacing: 0px;
+	font-size:120%;
+	color: #444;
+	line-height:inherit;
+	border:none;
+	padding: 14px 15px 14px 25px;
+	margin:0 ;
+	}
+
+	.drop-down li li li a, .drop-down li li li span.separator {
+	font-size:110%;
+	padding: 14px 15px 14px 40px;
+	}
+	
+	.drop-down li li li li a, .drop-down li li li li span.separator {
+	font-size:110%;
+	padding: 14px 15px 14px 60px;
+	}	
+	
+	.drop-down li a:hover, .drop-down li span.separator:hover {
+	-webkit-transition : none;
+	-moz-transition : none;
+	-ms-transition : none;
+	-o-transition : none;
+	transition : none;
+	}
+	
+	.drop-down li:hover > ul, .drop-down li:focus > ul {
+	display : block ;
+	z-index:10;
+	opacity:1;
+	-webkit-transition : none;
+	-moz-transition : none;
+	-ms-transition : none;
+	-o-transition :none;
+	transition : none;
+	}
+	
+	.drop-down > ul > li:last-child > ul ul {
+    left: inherit;
+    right: inherit;
+	}
+	
+	.drop-down a {
+	text-decoration : underline !important;
+	}
+	
+	.drop-down li:hover > a, .drop-down a[href="#js_navigation"] {
+	text-decoration : none !important;
+	}
+	
+	.drop-down a[href="#"] {
+	text-decoration : none !important;
+	cursor : default;
+	}
+	
+	.drop-down > div > ul > li:hover > a, .drop-down > div > ul > li:hover > span, .drop-down > div > ul > li[class*="current"] > a, .drop-down > div > ul > li[class*="current"] > span {
+	background-image: none;
+	box-shadow: none;
+	}	
+	
+	.drop-down li li:hover > a, .drop-down li li:hover > span, .drop-down li li[class*="current"] > a, .drop-down li li[class*="current"] > span {
+	background-image: none;
+	box-shadow: none ;
+	}
+	
+	.drop-down > div > ul > li[class*="current"] > a, .drop-down > div > ul > li[class*="current"] > span,
+	.drop-down > div > ul > li:hover > a, .drop-down > div > ul > li:hover > span {
+	background:#000 !important;
+	color:#fff !important;
+	}
+	
+	.drop-down li[class*="current"] > a {
+	text-decoration : none !important;
+	}
+	
+	/* others + Disable position fixed for Sticky menu */
+
+	.isStuck {
+	position:relative !important;
+	top:inherit !important;
+	left:inherit !important;
+	right:inherit !important;
+	background: transparent !important;
+	margin:0;
+	border-bottom:none;
+	z-index:99;
+	}
+	
+	.drop-down > div > ul {
+    border-top: none;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 979px) {
+  
+	body {
+	margin:0;
+	padding:0;
+	min-width : 0 ;
+	}
+	
+	.wrapper-website {
+	width: 96% ;
+	padding:0;
+	min-width : 0 ;
+	}
+	
+	/**		prevent problems with form 		**/
+	
+	input, textarea {
+	max-width:90%;
+	}
+
+	/** 	remove the fixed width of Google map 		**/
+	
+	div[id*="googlemap"] {
+	width:auto !important;
+	}
+    
+	/** 	Header 			**/
+	
+	.website-title span {
+	font-size:90%;
+	}
+
+	/** 	remove the margin bottom of the slideshow 		**/
+	
+	.image-module-position {
+	margin-bottom:0 !important;
+	}
+	
+	/** 	CONTENT 	**/
+	
+	.main_content {
+	padding:15px 0;
+	}
+	
+	.left_column, .right_column {
+	margin: 0;
+	padding:0;
+	min-height:0;
+	}
+	
+	.left_column > div, .right_column > div {
+	background-image : none;
+	margin: 0;
+	padding:0;	
+	min-height:0;
+	}
+	
+	.left_column > div > div, .right_column > div > div {
+	background-image : none;
+	background-color : transparent;
+	}
+
+
+	.left_column, .right_column, .top-module-position, .bottom-module-position {
+	float:none;
+	padding: 10px 0;
+	margin:0;
+	background-image:none;
+	min-height:auto;
+	border:none;
+	width : auto ;
+	clear:both;
+	}
+
+	.right_column {
+	overflow:visible;
+	}
+	
+	/**********		Column layouts			*********/
+
+	.one-fifth, .two-fifth, .three-fifth, .four-fifth {
+	float: none;
+	width:auto;
+	margin : 10px 0;
+	}
+	
+
+	/*************************************************		transform 3  and 2 Columns Layout blog in 1 Column 	************/
+	
+	article.two_columns_layout {
+	float:none;
+	width:auto;
+	}
+	
+	.clear + article.two_columns_layout {
+	float:none;
+	width:auto;
+	margin-right: 0;
+	}
+	
+	article.three_columns_layout {
+	float:none;
+	width:auto;
+	}
+	
+	.clear + article.three_columns_layout, .clear + article.three_columns_layout + article.three_columns_layout {
+	float:none;
+	width:auto;
+	margin-right: 0;
+	}
+	
+	article.two_columns_layout .article_large_image, article.three_columns_layout .article_large_image {
+	float:left;
+	margin: 0 20px 20px 0;
+	max-width:300px;
+	}
+	
+	article.two_columns_layout .entry-summary, article.three_columns_layout .entry-summary {
+	padding-top: 14px;
+	}
+
+	
+	/** 	FOOTER 		**/
+
+	.bottom_menu {
+	display:block;
+	float:none;
+	padding:0;
+	text-align:center;
+	margin: 10px auto 0px auto;
+	}
+	
+	.bottom_menu li {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	float:none;
+	padding:0 4px;
+	margin:0;
+	width:auto;
+	background-position:0 0 ;
+	background-image: none;
+	}
+	
+	.bottom_menu li a, .bottom_menu li span.separator {
+	padding: 5px 7px 4px 7px;
+	}
+	
+	.address {
+	clear: both;
+	float:none;
+	padding: 4px 0 0;
+	margin:8px 0 10px 0;
+	text-align: center;
+	}
+	
+	.address.without_bottom_menu {
+	margin-top:10px;
+	}
+	
+	/**		Copyright 		**/
+	
+	.jslink {
+	margin-top: 15px;
+	}
+	
+	/**		Contact page 			******/
+	
+	.form-page-contact.right {
+	width:400px;
+	margin-left:35px;
+	}
+	
+	.form-page-contact.left {
+	width:400px;
+	margin-right:35px;
+	}
+	
+	.form-page-contact input, .form-page-contact textarea {
+	display:block;
+	}
+	
+	.form-page-contact textarea {
+	width:390px;
+	}
+	
+}
+
+
+
+/* Phone and little tablet */
+@media screen and (max-width: 767px) {
+
+	/**		Header 			**/
+
+	.website-title span {
+	font-size:80%;
+	}
+	.website-subtitle span {
+	font-size:90%;
+	}
+	
+	/**			Main component 		**/
+	
+	.main_component {
+	margin-top:20px;
+	}
+	
+	/**********							**************/
+	
+	
+	.user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8, .user9 {
+	float:none;
+	padding:10px 0;
+	margin:0;
+	width : 100% !important;
+	clear:both;
+	}
+	
+	.top-module-position .border > div, .bottom-module-position .border > div, .user1 .border > div, .user2 .border > div, .user3 .border > div, .user4 .border > div, .user5 .border > div,
+	.user6 .border > div, .user7 .border > div, .user8 .border > div, .user9 .border > div {
+	margin-bottom:8px;
+	}
+	
+	.widget.shadow > div {
+	margin-bottom:0 !important;
+	}
+	
+	
+	
+	/**********		Column layouts			*********/
+
+	.one-half, .one-third, .two-third, .one-fourth, .two-fourth, .three-fourth, .one-fifth, .two-fifth, .three-fifth, .four-fifth {
+	float: none;
+	width:auto;
+	margin : 10px 0;
+	}
+	
+	/**		Contact page 			******/
+	
+	.form-page-contact.right, .form-page-contact.left {
+	float:none;
+	width:auto;
+	max-width:500px;
+	margin:20px auto 0 auto;
+	text-align:center;
+	}
+	
+	.content-page-contact {
+	padding-top:20px;
+	text-align:center;
+	}
+	
+	.form-page-contact input, .form-page-contact textarea {
+	width:80%;
+	margin:0 auto 20px auto;
+	}
+	
+	.form-page-contact input[type="submit"] {
+	margin: 0 auto;
+	width:auto;
+	margin-top:20px;
+	}
+	
+}
+
+@media (max-width: 600px) {
+
+
+	.article_large_image, article.two_columns_layout .article_large_image, article.three_columns_layout .article_large_image {
+	float:none;
+	margin: 0 20px 20px 0;
+	max-width:100%;
+	text-align:center;
+	}
+	
+	.entry-summary {
+	clear:both;
+	padding-top:0 !important;
+	}
+
+}
+
+@media (max-width: 769px) {
+
+	textarea, table, td, th, code, pre, samp {
+	word-wrap: break-word; 
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	}
+	
+	code, pre, samp {
+	white-space: pre-wrap;
+	}
+
+}

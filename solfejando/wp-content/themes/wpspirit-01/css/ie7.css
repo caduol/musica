@@ -1,0 +1,57 @@
+/*****************************************
+		SITE  IE7-
+******************************************/
+
+.assistive-text {
+display:none;
+}
+
+.bottom_menu li {
+margin:0px 0 0 5px ;
+background-image:none;
+}
+
+.drop-down li {
+vertical-align:top;
+}
+
+/**			to fixed a bug with Font Awesome code 		**/
+
+.social-links {
+display:none;
+}
+
+/*************	COLUMN LAYOUTS				****************************/
+
+.one-half, .one-third, .two-third, .one-fourth, .two-fourth, .three-fourth, .one-fifth, .two-fifth, .three-fifth, .four-fifth {
+margin-right:3.5%;
+}
+
+
+/*************************************************		2 Columns Layout blog	************/
+
+article.two_columns_layout {
+float:right;
+width:46%;
+}
+
+.clear + article.two_columns_layout {
+float:left;
+width:46%;
+margin-right:4%;
+}
+
+
+/*************************************************		3 Columns Layout blog	************/
+
+article.three_columns_layout {
+float:left;
+width:29%;
+margin-right:4%;
+}
+
+.clear + article.three_columns_layout, .clear + article.three_columns_layout + article.three_columns_layout {
+float:left;
+width:29%;
+margin-right:4%;
+}
