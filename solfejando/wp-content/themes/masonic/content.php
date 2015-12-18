@@ -19,13 +19,14 @@
       <div class="wider-web-top">
          <i class="fa fa-2x fa-caret-down"></i>
       </div>
-      <figure>
+      
+      <!-- RETIREI A TAG <FIGURE> PARA CANCELAR O EFEITO DE APROXIMAÇÃO EM IMAGEM FIXA DE POST -->
          <a href="<?php the_permalink(); ?>">
             <?php
             the_post_thumbnail('small-thumb');
             ?>
          </a>
-      </figure>
+      
    <?php } ?>
 
    <?php if ('post' == get_post_type()) : ?>
@@ -33,6 +34,7 @@
          <?php masonic_posted_on(); ?>
       </div><!-- .entry-meta -->
    <?php endif; ?>
+
 
    <div class="entry-content">
       <?php

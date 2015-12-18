@@ -199,8 +199,10 @@ add_action('masonic_gallery_images','masonic_gallery_output');
  *
  * @uses filter excerpt_length
  */
+
+// MUDANCA NA QUANTIDADE DE CARACTERE QUE SERA APRESENTADO POR POST
 function masonic_excerpt_length($length) {
-   return 40;
+   return 20;
 }
 
 add_filter('excerpt_length', 'masonic_excerpt_length');
@@ -208,8 +210,10 @@ add_filter('excerpt_length', 'masonic_excerpt_length');
 /**
  * Returns a "Continue Reading" link for excerpts
  */
+
+// OS TRES PONTOS NO CORTE DE LIMITE DE CONTEUDO
 function masonic_read_more($more) {
-   return '';
+   return ' ...';
 }
 
 add_filter('excerpt_more', 'masonic_read_more');

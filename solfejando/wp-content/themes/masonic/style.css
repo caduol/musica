@@ -675,6 +675,7 @@ footer .blog-post{
    border-bottom: 1px solid #333;
    margin: 30px auto 0;
    width: 85%;
+
    z-index: 999;
 }
 .masonic-search > input {
@@ -684,7 +685,7 @@ footer .blog-post{
    font-size: 18px;
 }
 #masthead .masonic-search > input {
-   font-size: 40px;
+   font-size: 18px;
 }
 .primary .masonic-search > input[type="text"] {
    color:rgb(73,73,73);
@@ -776,7 +777,7 @@ footer .blog-post{
 .masonic-search-toggle {
    background: none repeat scroll 0 0 #262626;
    display: none;
-   height: 148px;
+   height: 100px;
    position: absolute;
    width: 100%;
    z-index: 999;
@@ -824,8 +825,9 @@ footer .blog-post{
 }
 .header-image {
    overflow: hidden;
-   min-height: 150px;
+   max-height: 500px;   
    text-align: center;
+   background: #000;
 }
 .site-branding {
    width: 100%;
@@ -1632,7 +1634,7 @@ footer .angled-background {
       font-size: 16px;
    }
    .inner-wrap{
-      width: 100%;
+      width: 100%;      
    }
    .angled-background {
       display: none;
